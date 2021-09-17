@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Zaffere's Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <!-- <div class="d-flex"> -->
+        <div class="d-flex justify-content-around">
+          <!-- <a class="navbar-brand" href="https://localhost:3000"
+              ><img class="logo" src="./assets/zlogo.png"
+            /></a> -->
+          <a class="navbar-brand" href="/index.html"
+            ><h2>Welcome!</h2></a
+          >
+        </div>
+        <!-- <div class="d-flex justify-content-end">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div> -->
+        <!-- </div> -->
+        <div class="d-flex justify-content-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav-tab active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tab" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tab" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <!-- HEADER -->
+      <header class="container-fluid mt-2 mb-5 p-3">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8 text-center">
+            <h1 id="hi_zaffere">Hi, I'm Zaffere 👋</h1>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 col-md-4"></div>
+          <div class="col-sm-6 col-md-4 text-center text-white">
+            <p class="text-center">I love to code 💻</p>
+            <p class="text-center">I'm a Software Engineer from 🇸🇬</p>
+          </div>
+          <div class="col-sm-3 col-md-4"></div>
+        </div>
+      </header>
+
+          <!-- MAIN -->
+    <main>
+      <!-- PROJECTS -->
+
+      <div class="container-fluid mb-5 p-3">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-sm-12 d-flex flex-row justify-content-around flex-wrap">
+                
+                <!--  CARDS -->
+                <!-- first project -->
+                <div class="card mb-4 text-white dark-card" style="width: 18rem">
+                  <!--  carousell  -->
+                  <div
+                    id="firstProjectCarouselControl"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./assets/enjinur.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="/assets/enjinur.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="/assets/a.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#firstProjectCarouselControl"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#firstProjectCarouselControl"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- CAROUSEL -->
+                  <div class="card-body">
+                    <h5 class="card-title">Zoom Clone</h5>
+                    <p class="card-text">
+                      A web app for 1-to-1 or group video calls with an in-room live chat feature 
+                    </p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-white dark-card">1-to-1 / Group video call 📹</li>
+                    <li class="list-group-item text-white dark-card">Realtime in-room chat feature 💬</li>
+                    <li class="list-group-item text-white dark-card">Realtime email notification to send or receive call schedules 📬</li>
+                  </ul>
+                  <div class="card-body">
+                    <!-- <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a> -->
+                    <!-- FIRST PROJECT BUTTON MODAL -->
+                    <button
+                      type="button"
+                      class="btn text-white dark-card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#firstProject"
+                    >
+                      Read more 🤔
+                    </button>
+                  </div>
+                </div>
+                <!-- FIRST PROJECT MODAL -->
+                <div
+                  class="modal fade"
+                  id="firstProject"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="firstProjectLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="firstProjectLabel">
+                          My little Zoom clone
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                        <p>
+                          This is one of my proudest projects. Having gone through Rocket Academy, I had the confidence in myself to to try develop my small version of Zoom. I spent about 5 days reading documentations and running small tests before finally deciding i could get this done by due date. Although there were plenty of react libraries for video applications, i chose to dig in myself and worked with the Web API's MediaDevices to get the each user's stream. Good choice i must say, as it gave me the opportunity to pick up new technologies while understanding them myself. 
+                        </p>
+                        <h2>Challenges faced</h2>
+                        <p>Obviously there were many challenges/blockers i faced while developing this web app, but i think the most interesting one was figuring out how to host a group video call. Handling a 1-to-1 was quite straight forward as all i had to do was get one user to send a request and handle the anwsering logic on the other end. But with many other users doing the same thing i got overwhelmed by the idea 🤯 Turns out it was quite straight forward! I made it so that in a group of let's say 3 (person "A", "B" and "C"), the first person (presumably the host whom we'll call "A"), would only have to care about sending out the call request. The other two users, "B" and "C" would each receive a call request from the host (person "A") and the recieving logic would run on their end respectively. So this means now, on each person's screen, A would see both "B" and "C", while</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a
+                          href="https://github.com/ZAF07/video-chat-app/tree/master"
+                          target='blank'
+                          type="button"
+                          class="btn btn-secondary"
+                        >
+                          View Code
+                      </a>
+                        <a 
+                        type="button"
+                        class="btn btn-primary"
+                        href='https://secret-oasis-97695.herokuapp.com/'
+                        target='blank'
+                        >
+                          Open Site
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END CARD -->
+                 <!--  CARDS -->
+                <div class="card mb-4 dark-card text-white" style="width: 18rem">
+                  <!--  carousell  -->
+                  <div
+                    id="secondProjectCarouselControl"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./assets/enjinur.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="/assets/enjinur.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="/assets/a.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#secondProjectCarouselControl"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#secondProjectCarouselControl"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- CAROUSEL -->
+                  <div class="card-body">
+                    <h5 class="card-title">Project title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item dark-card text-white">An item</li>
+                    <li class="list-group-item dark-card text-white">A second item</li>
+                    <li class="list-group-item dark-card text-white">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <!-- <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a> -->
+                    <!-- SECOND PROJECT BUTTON MODAL -->
+                    <button
+                      type="button"
+                      class="btn dark-card-btn text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#secondProject"
+                    >
+                      Read more 🤔
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="modal fade"
+                  id="secondProject"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="secondProjectLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="secondProjectLabel">
+                          Modal title
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                        <p>
+                          Second Project dolor sit amet consectetur adipisicing
+                          elit. Deserunt earum, nisi alias corporis temporibus,
+                          modi dignissimos architecto ducimus minima ab
+                          voluptatum recusandae nesciunt voluptate! Fugiat a
+                          quia provident repudiandae atque?
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          View Code
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Open Site
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END CARD -->
+                 <!--  CARDS -->
+                <div class="card mb-4 dark-card text-white" style="width: 18rem">
+                  <!--  carousell  -->
+                  <div
+                    id="thirdProjectCarouselControl"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./assets/enjinur.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="/assets/enjinur.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="/assets/a.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#thirdProjectCarouselControl"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#thirdProjectCarouselControl"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- CAROUSEL -->
+                  <div class="card-body">
+                    <h5 class="card-title">Project title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item dark-card text-white">An item</li>
+                    <li class="list-group-item dark-card text-white">A second item</li>
+                    <li class="list-group-item dark-card text-white">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <!-- <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a> -->
+                    <!-- THIRD PROJECT BUTTON MODAL -->
+                    <button
+                      type="button"
+                      class="btn dark-card-btn text-white"
+                      data-bs-toggle="modal"
+                      data-bs-target="#thirdProject"
+                    >
+                      Read more 🤔
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="modal fade"
+                  id="thirdProject"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="thirdProjectLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="thirdProjectLabel">
+                          Third Project Title
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                        <p>
+                          Third Project dolor sit amet consectetur adipisicing
+                          elit. Deserunt earum, nisi alias corporis temporibus,
+                          modi dignissimos architecto ducimus minima ab
+                          voluptatum recusandae nesciunt voluptate! Fugiat a
+                          quia provident repudiandae atque?
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          View Code
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Open Site
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END CARD -->
+              </div>
+            </div>            
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
