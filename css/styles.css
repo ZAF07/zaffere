@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+body {
+  background-color: #121212;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+  width: 5%;
+}
+
+#hi_zaffere {
+  color: aliceblue;
+}
+
+.dark-card,
+#nav,
+#second-project,
+#third-project,
+#first-project-card-li {
+  background: #232323;
+}
+
+.dark-card-btn {
+  background: #192734;
+}
+.dark-card-btn:hover {
+  background: #7f7f7f;
+}
