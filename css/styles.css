@@ -1,17 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap');
 
 body {
   background-color: #121212;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 .logo {
   width: 5%;
 }
 
+#hi_zaffere {
+  font-size: 450%;
+}
+
 #hi_zaffere,
 .light-text {
   color: aliceblue;
+  font-weight: 500;
 }
 
 .dark-card,
