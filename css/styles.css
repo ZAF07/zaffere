@@ -30,10 +30,13 @@ body {
 }
 
 .dark-card-btn {
+  color: aliceblue;
   background: #192734;
+  border: 1px solid aliceblue;
 }
 .dark-card-btn:hover {
-  background: #7f7f7f;
+  color: #000;
+  background: #e6e6e6;
 }
 
 @media screen and (max-width: 600px) {
