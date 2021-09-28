@@ -37,3 +37,9 @@ body {
 .dark-card-btn:hover {
   background: #7f7f7f;
 }
+
+@media screen and (max-width: 600px) {
+  #hi_zaffere {
+    font-size: 250%;
+  }
+}
