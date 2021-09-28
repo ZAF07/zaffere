@@ -103,37 +103,39 @@
           <div class="col-sm-8">
             <div class="row">
               <div class="col-sm-12 d-flex flex-row justify-content-around flex-wrap">
-                
-                <!--  CARDS -->
-                <!-- first project -->
-                <div class="card mb-4 text-white dark-card" style="width: 18rem">
-                  <!--  carousell  -->
+
+                <!--  FIRST PROJECT CARD -->
+                <div class="card mb-3 dark-card light-text">
+                  <!--  CAROUSELL START -->
                   <div
                     id="firstProjectCarouselControl"
                     class="carousel slide"
-                    data-bs-ride="carousel"
-                  >
+                    data-bs-ride="firstPorjectCarousel">
+                    
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img
-                          src="./assets/enjinur.jpg"
+                          src="./assets/zoom-clone/zoom.png"
                           class="d-block w-100"
                           alt="..."
                         />
                       </div>
+                      
                       <div class="carousel-item">
                         <img
-                          src="./assets/enjinur.jpg"
+                          src="./assets/zoom-clone/z-add-peer.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                      </div> 
+                      
+                      <div class="carousel-item">
+                        <img
+                          src="./assets/zoom-clone/z-in-room.png"
                           class="d-block w-100"
                           alt="..."
                         />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="./assets/a.jpg"
-                          class="d-block w-100"
-                          alt="..."
-                        />
+                      
                       </div>
                     </div>
                     <button
@@ -144,8 +146,8 @@
                     >
                       <span
                         class="carousel-control-prev-icon"
-                        aria-hidden="true"
-                      ></span>
+                        aria-hidden="true">
+                      </span>
                       <span class="visually-hidden">Previous</span>
                     </button>
                     <button
@@ -156,27 +158,22 @@
                     >
                       <span
                         class="carousel-control-next-icon"
-                        aria-hidden="true"
-                      ></span>
+                        aria-hidden="true">
+                      </span>
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-                  <!-- CAROUSEL -->
+                  <!--  CAROUSEL END -->
                   <div class="card-body">
-                    <h5 class="card-title light-text">Zoom Clone</h5>
-                    <p class="card-text light-text">
-                      A web app for 1-to-1 or group video calls with an in-room live chat feature 
-                    </p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item light-text dark-card">1-to-1 / Group video call 📹</li>
-                    <li class="list-group-item light-text dark-card">Realtime in-room chat feature 💬</li>
-                    <li class="list-group-item light-text dark-card">Realtime email notification to send or receive call schedules 📬</li>
-                  </ul>
-                  <div class="card-body">
-                    <!-- <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a> -->
-                    <!-- FIRST PROJECT BUTTON MODAL -->
+                    <h5 class="card-title">Zoom Clone</h5>
+
+                    <p class="card-text">A web app for 1-to-1 or group video calls with an in-room live chat feature</p>
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item light-text dark-card"><small>* 1-to-1 / Group video call</small> 📹</li>
+                    <li class="list-group-item light-text dark-card"><small>* Realtime in-room chat feature</small> 💬</li>
+                    <li class="list-group-item light-text dark-card"><small>* Realtime email notification to send or receive call schedules 📬</small></li>
+                    </ul>
+                    <hr>
                     <button
                       type="button"
                       class="btn light-text dark-card-btn"
@@ -186,6 +183,9 @@
                       Read more 🤔
                     </button>
                   </div>
+                </div>
+                <!--  END FIRST PROJECT CARD -->
+
                 </div>
                 <!-- FIRST PROJECT MODAL -->
                 <div
@@ -211,13 +211,13 @@
                       </div>
                       <div class="modal-body">
                         ...
-                        <img class='w-100' src="./assets/enjinur.jpg" alt="">
+                        <img class='w-100' src="./assets/zoom-clone/z-add-peer.png" alt="">
                         <p class="light-text">
                           This is one of my proudest projects. Having gone through Rocket Academy, I had the confidence in myself to try develop my version of a simple Zoom. I spent about 5 days reading documentations and running small tests before finally deciding I could get this done by due date. Although there were plenty of react libraries for video applications, I chose to dig in myself and worked with the Web API's MediaDevices to get the each user's stream. Good choice I must say, as it gave me the opportunity to pick up new technologies while understanding them myself. 
                         </p>
                         <h2 class="light-text">Challenges faced</h2>
                         <p class="light-text">Obviously there were many challenges/blockers I faced while developing this web app, but I think the most interesting one was figuring out how to host a group video call. Handling a 1-to-1 was quite straight forward as all I had to do was get one user to send a request and handle the anwsering logic on the other end. But with many other users doing the same thing I got overwhelmed by the idea 🤯 Turns out it was quite straight forward! I made it so that in a group of let's say 3 (person "A", "B" and "C"), the first person (presumably the host whom we'll call "A"), would only have to care about sending out the call request. The other two users, "B" and "C" would each receive a call request from the host (person "A") and the recieving logic would run on their end respectively. So this means now, on each person's screen, A would see both "B" and "C", while s</p>
-                        <img class='w-100' src="./assets/enjinur.jpg" alt="">
+                        <img class='w-100' src="./assets/zoom-clone/z-invite-peer.png" alt="">
                       </div>
                       <div class="modal-footer">
                         <a
@@ -240,7 +240,311 @@
                     </div>
                   </div>
                 </div>
-                <!-- END CARD -->
+
+
+
+                <!-- START SECOND PROJECT -->
+                  <!--  SECOND PROJECT CARD -->
+                <div class="card mb-3 dark-card light-text">
+                  <!--  CAROUSELL START -->
+                  <div
+                    id="secondProjectCarouselControl"
+                    class="carousel slide"
+                    data-bs-ride="secondCarousel">
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./assets/halpp/z-halpp-home.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <img
+                          src="./assets/halpp/z-halpp-about.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                      </div> 
+                      
+                      <div class="carousel-item">
+                        <img
+                          src="./assets/halpp/z-halpp-browse.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+
+                      <div class="carousel-item">
+                        <img
+                          src="./assets/halpp/z-halpp-profile.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#secondProjectCarouselControl"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true">
+                      </span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#secondProjectCarouselControl"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true">
+                      </span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!--  CAROUSEL END -->
+                  <div class="card-body">
+                    <h5 class="card-title">Halpp!</h5>
+
+                    <p class="card-text">A web platform to post / receive ad-hoc jobs</p>
+                    
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item light-text dark-card"><small>* Users can post jobs needed to be completed</small> 🛠</li>
+                    <li class="list-group-item light-text dark-card"><small>* Employers can browse and select interested candidates for current job</small> 👀</li>
+                    <li class="list-group-item light-text dark-card"><small>* Email notification to send or receive jobs</small> 📬</li>
+                    </ul>
+
+                    <hr>
+                    <button
+                      type="button"
+                      class="btn light-text dark-card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#secondProject"
+                    >
+                      Read more 🤔
+                    </button>
+                  </div>
+                </div>
+                <!--  END SECOND PROJECT CARD -->
+
+                </div>
+                <!-- SECOND PROJECT MODAL -->
+                <div
+                  class="modal fade"
+                  id="secondProject"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="secondProjectLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content dark-card">
+                      <div class="modal-header">
+                        <h5 class="modal-title light-text" id="secondProjectLabel">
+                          Halpp! 
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                        <img class='w-100' src="./assets/halpp/z-halpp-home.png" alt="">
+                        <p class="light-text">
+                          This is one of my proudest projects. Having gone through Rocket Academy, I had the confidence in myself to try develop my version of a simple Zoom. I spent about 5 days reading documentations and running small tests before finally deciding I could get this done by due date. Although there were plenty of react libraries for video applications, I chose to dig in myself and worked with the Web API's MediaDevices to get the each user's stream. Good choice I must say, as it gave me the opportunity to pick up new technologies while understanding them myself. 
+                        </p>
+                        <h2 class="light-text">Challenges faced</h2>
+                        <p class="light-text">Obviously there were many challenges/blockers I faced while developing this web app, but I think the most interesting one was figuring out how to host a group video call. Handling a 1-to-1 was quite straight forward as all I had to do was get one user to send a request and handle the anwsering logic on the other end. But with many other users doing the same thing I got overwhelmed by the idea 🤯 Turns out it was quite straight forward! I made it so that in a group of let's say 3 (person "A", "B" and "C"), the first person (presumably the host whom we'll call "A"), would only have to care about sending out the call request. The other two users, "B" and "C" would each receive a call request from the host (person "A") and the recieving logic would run on their end respectively. So this means now, on each person's screen, A would see both "B" and "C", while s</p>
+                        <img class='w-100' src="./assets/halpp/z-halpp-manage.png" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <a
+                          href="https://github.com/ZAF07/video-chat-app/tree/master"
+                          target='blank'
+                          type="button"
+                          class="btn btn-secondary"
+                        >
+                          View Code
+                      </a>
+                        <a 
+                        type="button"
+                        class="btn btn-primary"
+                        href='https://secret-oasis-97695.herokuapp.com/'
+                        target='blank'
+                        >
+                          Open Site
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END SECOND PROJECT MODAL -->
+
+
+
+                <!--  THIRD PROJECT  -->
+
+                <!-- START THIRD PROJECT -->
+                  <!--  THIRD PROJECT CARD -->
+                <div class="card mb-3 dark-card light-text">
+                  <!--  CAROUSELL START -->
+                  <div
+                    id="thirdProjectCarouselControl"
+                    class="carousel slide"
+                    data-bs-ride="thirdCarousel">
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./assets/swe/swe-home-gif.gif"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <img
+                          src="./assets/swe/swe-quiz-home.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                      </div> 
+                      
+                      <div class="carousel-item">
+                        <img
+                          src="./assets/swe/swe-quiz-gif-no-convert.gif"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+
+                       <div class="carousel-item">
+                        <img
+                          src="./assets/swe/swe-quiz.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#thirdProjectCarouselControl"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true">
+                      </span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#thirdProjectCarouselControl"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true">
+                      </span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!--  CAROUSEL END -->
+                  <div class="card-body">
+                    <h5 class="card-title">SWE Quiz App</h5>
+
+                    <p class="card-text">A site for SWEs to test their knowledge on various topics</p>
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item light-text dark-card"><small>* Users can select quizzes from various topics</small> 🤨</li>
+                    <li class="list-group-item light-text dark-card"><small>* Take a look at questions answered incorrectly<small> 👀</li>
+                    <li class="list-group-item light-text dark-card"><small>* Resources tab for users to read and learn various topics on SWE</small> 📚</li>
+                    </ul>
+                    <hr>
+                    <button
+                      type="button"
+                      class="btn light-text dark-card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#thirdProject"
+                    >
+                      Read more 🤔
+                    </button>
+                    
+                  </div>
+                </div>
+                <!--  END THIRD PROJECT CARD -->
+
+                </div>
+                <!-- THIRD PROJECT MODAL -->
+                <div
+                  class="modal fade"
+                  id="firstProject"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="thirdProjectLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content dark-card">
+                      <div class="modal-header">
+                        <h5 class="modal-title light-text" id="thirdProjectLabel">
+                          My little Zoom clone
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                        <img class='w-100' src="./assets/zoom-clone/z-add-peer.png" alt="">
+                        <p class="light-text">
+                          This is one of my proudest projects. Having gone through Rocket Academy, I had the confidence in myself to try develop my version of a simple Zoom. I spent about 5 days reading documentations and running small tests before finally deciding I could get this done by due date. Although there were plenty of react libraries for video applications, I chose to dig in myself and worked with the Web API's MediaDevices to get the each user's stream. Good choice I must say, as it gave me the opportunity to pick up new technologies while understanding them myself. 
+                        </p>
+                        <h2 class="light-text">Challenges faced</h2>
+                        <p class="light-text">Obviously there were many challenges/blockers I faced while developing this web app, but I think the most interesting one was figuring out how to host a group video call. Handling a 1-to-1 was quite straight forward as all I had to do was get one user to send a request and handle the anwsering logic on the other end. But with many other users doing the same thing I got overwhelmed by the idea 🤯 Turns out it was quite straight forward! I made it so that in a group of let's say 3 (person "A", "B" and "C"), the first person (presumably the host whom we'll call "A"), would only have to care about sending out the call request. The other two users, "B" and "C" would each receive a call request from the host (person "A") and the recieving logic would run on their end respectively. So this means now, on each person's screen, A would see both "B" and "C", while s</p>
+                        <img class='w-100' src="./assets/zoom-clone/z-invite-peer.png" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <a
+                          href="https://github.com/ZAF07/video-chat-app/tree/master"
+                          target='blank'
+                          type="button"
+                          class="btn btn-secondary"
+                        >
+                          View Code
+                      </a>
+                        <a 
+                        type="button"
+                        class="btn btn-primary"
+                        href='https://secret-oasis-97695.herokuapp.com/'
+                        target='blank'
+                        >
+                          Open Site
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END THIRD PROJECT MODAL -->
+
+
                  <!--  CARDS -->
                 <div class="card mb-4 dark-card text-white" style="width: 18rem">
                   <!--  carousell  -->
