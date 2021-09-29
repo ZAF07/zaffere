@@ -295,14 +295,6 @@
                         />
                       </div>
 
-                       <!-- <div class="carousel-item">
-                        <img
-                          src="./assets/swe/swe-quiz.png"
-                          class="d-block w-100"
-                          alt="..."
-                        />
-                      </div> -->
-
                     </div>
                     <button
                       class="carousel-control-prev"
@@ -383,10 +375,14 @@
                         <img class='w-100' src="./assets/swe/swe-quiz-video.gif" alt="">
                         <h2 class="light-text mt-2">What is this?</h2>
                         <p class="light-text">
-                          This is one of my proudest projects. Having gone through Rocket Academy, I had the confidence in myself to try develop my version of a simple Zoom. I spent about 5 days reading documentations and running small tests before finally deciding I could get this done by due date. Although there were plenty of react libraries for video applications, I chose to dig in myself and worked with the Web API's MediaDevices to get the each user's stream. Good choice I must say, as it gave me the opportunity to pick up new technologies while understanding them myself. 
+                          I created this quiz app to sumamrise what i have learnt during my 6 month Full-time Coding Bootcamp at Rocket Academy. My goal with this project is to come up with a quiz site for beginner to advanced level SWEs to test their knowledge on various topics any SWE should know. I might even start my own mini tutorials on some of the topics covered here in the near future! 
                         </p>
                         <h2 class="light-text">Challenges faced</h2>
-                        <p class="light-text">Obviously there were many challenges/blockers I faced while developing this web app, but I think the most interesting one was figuring out how to host a group video call. Handling a 1-to-1 was quite straight forward as all I had to do was get one user to send a request and handle the anwsering logic on the other end. But with many other users doing the same thing I got overwhelmed by the idea 🤯 Turns out it was quite straight forward! I made it so that in a group of let's say 3 (person "A", "B" and "C"), the first person (presumably the host whom we'll call "A"), would only have to care about sending out the call request. The other two users, "B" and "C" would each receive a call request from the host (person "A") and the recieving logic would run on their end respectively. So this means now, on each person's screen, A would see both "B" and "C", while both "B" and "C" only has "A" on their screens. Now we can assume that "B" is the second person to join the room. The same logic would apply for "B" in terms of making the call request to "C". But we're not done here! Any user who isn't the first person to join the room would have to handle TWO events. Calling and receiving. Calling any new user who joins the room and receiving call requests from users before them. This is (in short detail) how i overcame this particular challenge for this project! I hope to write a longer blog on this topic when time permits! Stay tuned! 🤓</p>
+                        <p class="light-text">This being the final project in the course of the bootcamp, I felt really comfortable with the technologies I used. There wasn't mush of a blocker for this one other than me realising I had to remove and reinitialise the 3rd party voice control library I used for this project. I'm glad to say that all those learnings really paid off!</p>
+                        <h2 class="light-text mt-2">Take Aways</h2>
+                        <p class="light-text">
+                          My take away from this project wasn't actually from developing it, but from deciding to switch ideas. I might be going in over my head had I decided to stick with the original idea. I paused to ask myself if I had enough time to learn those technologies AND develop a polished project at the same time. It made me realise that it's good to know where your level of proficiency is in terms of your coding abilities and understanding in depth the technologies we chose to use.
+                        </p>
                         <img class='w-100' src="./assets/swe/swe-quiz-gif.gif" alt="">
                       </div>
                       <div class="modal-footer">
@@ -394,7 +390,7 @@
                           href="https://github.com/ZAF07/quiz-app"
                           target='blank'
                           type="button"
-                          class="btn btn-secondary dark-card-btn"
+                          class="btn btn-secondary"
                         >
                           View Code
                       </a>
@@ -537,10 +533,17 @@
                         <img class='w-100' src="./assets/halpp/z-halpp-home.png" alt="">
                         <h2 class="light-text mt-2">What is this?</h2>
                         <p class="light-text">
-                          This is one of my proudest projects. Having gone through Rocket Academy, I had the confidence in myself to try develop my version of a simple Zoom. I spent about 5 days reading documentations and running small tests before finally deciding I could get this done by due date. Although there were plenty of react libraries for video applications, I chose to dig in myself and worked with the Web API's MediaDevices to get the each user's stream. Good choice I must say, as it gave me the opportunity to pick up new technologies while understanding them myself. 
+                          This is a platform for anyone to post or receive ad-hoc jobs.
+                          The idea behind this site was actually what got me started programming. I had this little idea then, and thought I'd give it a shot to see if this could make me some money. Problem was developers were either too expensive or too sketchy to hire. So I gave myself 6 months to TRY to learn to code and develop an app myself. Fast forward 6 months later, I only managed to complete two chapters and gave up soon after. Now I thought it would be a good idea to recreate a Beta version of this idea with my current knowledge and buid from here. 
                         </p>
                         <h2 class="light-text">Challenges faced</h2>
-                        <p class="light-text">Obviously there were many challenges/blockers I faced while developing this web app, but I think the most interesting one was figuring out how to host a group video call. Handling a 1-to-1 was quite straight forward as all I had to do was get one user to send a request and handle the anwsering logic on the other end. But with many other users doing the same thing I got overwhelmed by the idea 🤯 Turns out it was quite straight forward! I made it so that in a group of let's say 3 (person "A", "B" and "C"), the first person (presumably the host whom we'll call "A"), would only have to care about sending out the call request. The other two users, "B" and "C" would each receive a call request from the host (person "A") and the recieving logic would run on their end respectively. So this means now, on each person's screen, A would see both "B" and "C", while s</p>
+                        <p class="light-text">
+                          The biggest challenge i face here was coming up with a database model design. I had to fine tune my tables a few times before i stuck to creating a 2nf model differentiating employers and employees by their ID in the JOBS table.
+                        </p>
+                        <h2 class="light-text mt-2">Take Aways</h2>
+                        <p class="light-text">
+                          This project gave me first hand insights to how important planning docs are. I took some time to sit down and run through my user stories and user flows before starting development. Having a solid plan before executing on a project helps you a ton!
+                        </p>
                         <img class='w-100' src="./assets/halpp/z-halpp-manage.png" alt="">
                       </div>
                       <div class="modal-footer">
@@ -548,7 +551,7 @@
                           href="https://github.com/ZAF07/RA-Project-2"
                           target='blank'
                           type="button"
-                          class="btn btn-secondary dark-card-btn"
+                          class="btn btn-secondary"
                         >
                           View Code
                       </a>
@@ -614,7 +617,7 @@
     <!-- <h2 class="light-text text-center">Contact me 🤙</h2> -->
     <p class="light-text">📞 Phone: +65 93881849</p>
     <p class="light-text">📨 Email: zaffere07@gmail.com</p>
-    <p class="light-text">📜 Resume: <a class="light-text" type="button" href="./assets/zaffere-cv.pdf" download="./assets/zaffere-cv.pdf">Download me!</a></p>
+    <p class="light-text">📜 Resume: <a class="light-text" type="button" href="./assets/zaffere-cv.pdf" download="./assets/zaffere-cv.pdf">Download here!</a></p>
   </div>
             </div>
             <div class="col-sm-2"></div>
